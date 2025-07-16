@@ -1,0 +1,218 @@
+     body {
+            margin: 0;
+        }
+
+        /*--------------------------------------------------------- header------------------------------------------------------------------- */
+        header {
+            width: 100%;
+             max-width: 100%;
+            background-color: black;
+            display: flex;
+            
+
+            align-items: center;
+            height: 50px;
+
+
+        }
+
+        .divh1 {
+
+            /* background-color: gray; */
+            width: 50%;
+            display: flex;
+
+        }
+        .divh1 a{
+            text-decoration: none;
+        }
+        .divh2 {
+            /* background-color: aqua; */
+            width: 50%;
+            display: flex;
+            justify-content: end;
+
+        }
+        .divh2 a{
+            text-decoration: none;
+        }
+
+        .div1 {
+            margin-left: 10px;
+        }
+
+        .div1 a {
+
+            color: white;
+            font-size: 20px;
+        }
+
+
+        .div2 {
+            margin-right: 10px;
+        }
+
+        .div2 a {
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        /*-------------------------------------Navbar--------------------------------------------------------------*/
+
+        nav {
+
+
+            display: flex;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            background-color: white;
+            height: 80px;
+             max-width: 100%;
+
+        }
+
+        .divn1 {
+            width: 30%;
+
+
+        }
+
+        .divn1 img {
+            width: 100%;
+            height: auto;
+            margin-left: 10px;
+            max-width: 500px;
+
+        }
+
+        .divn2 {
+            width: 70%;
+            /* background-color: yellow; */
+            display: flex;
+            justify-content: end;
+
+        }
+
+        .divn2 a {
+            font-size: 20px;
+            margin-right: 10px;
+            color: black;
+            text-decoration: none;
+        }
+
+        /* ------------------------------------section1-------------------------------------------------- */
+
+        .divs1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .divs1 div {
+            height: 200px;
+            width: 220px;
+
+            margin: 20px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            position: relative;
+        }
+
+        .divpu {
+            position: absolute;
+            font-size: 30px;
+            bottom: 20px;
+
+
+        }
+
+        .divpb {
+            position: absolute;
+            font-size: 18px;
+            bottom: 10px;
+        }
+
+        /* -------------------------------------section2-------------------------------------- */
+
+        .divs2 {
+            display: flex;
+            justify-content: center;
+          
+
+        }
+
+        .divs2m1 {
+            width: 400px;
+            height: 500px;
+            margin: 10px;
+          
+            border-radius: 10px;
+            /* display: flex; */
+            overflow: hidden;
+        }
+
+        .divs2 div img {
+           
+            width: 100%;
+            height: 250px;
+        }
+
+        /* -------------------------------------------------------------------butoon----------------------------- */
+
+        .my-btn {
+            width: 300px;
+            height: 50px;
+            cursor: pointer;
+            background-color: coral;
+            color: white;
+            font-size: 20px;
+            border: none;
+            border-radius: 10px;
+        }
+
+            /* -------------------------------------------------------------------section4----------------------------- */
+
+            .divb1{
+
+               width: 300px;
+               height: 200px; 
+              position: relative;
+             
+               
+               
+            }
+            .divb1 p{
+               
+                font-size: 20px;
+            }
+  /* ---------------------------------------------------------------------------------section6------------------------
+ */
+.divf div{
+    width: 250px;
+    height: 200px;
+    margin-right: 20px;
+    
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: -1px 10px 20px rgb(241, 232, 232);
+    border: none;
+}
+
+.box div{
+
+width: 300px;
+height: 300px;
+color: white;
+margin-right: 10px;
+
+}
+
+.box div p{
+    color: white;
+}
